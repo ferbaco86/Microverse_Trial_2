@@ -11,12 +11,29 @@
 <h1 id="title"> new cool form</h1>
 <p id="description"> thanks you for doing this survey</p>
 <form id="survey-form">
-  <label for = "name"> Name</label>
+  <label for = "name" id="name-label"> Name</label>
   <input type="text" id="name" placeholder="Enter your name" required><br>
-  <label for="email">Email</label>
+  <label for="email" id="email-label">Email</label>
   <input type="email" name="" id="email" placeholder="Enter your email" required><br>
-  <label for="number">Age</label>
-  <input type="number" name="" id="number" min="1" max="99" placeholder="Enter your age">
+  <label for="number" id="number-label">Age</label>
+  <input type="number" name="" id="number" min="1" max="99" placeholder="Enter your age" required>
+  <select id="dropdown">
+    <option>Unemployed</option>
+    <option>Employed</option>
+    <option>Student</option>
+    
+
+  </select><br>
+  <input type="radio" name="gender" value="male" id="male">
+  <label for="male">Male</label> 
+  <input type="radio" name="gender" value="female" id="female">
+  <label for="female">Female</label><br>
+  <input type="checkbox" value="java" name="lang"> Java<br>
+  <input type="checkbox" value="c++" name="lang2"> C++<br>
+  <input type="checkbox" value="phyton" name="lang3"> Python<br>
+
+  
+
 </form>
     <script  src="js/index.js"></script>
   </body>
