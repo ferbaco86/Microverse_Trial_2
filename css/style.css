@@ -1,0 +1,27 @@
+html{
+    font-size: 10px;
+}
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+#main{
+    margin: auto;
+    padding: 1em;
+font-size: 1.5rem;
+border: solid;
+border-width: 10rem;
+border-color: rgb(92, 43, 92);
+}
+#textarea{
+    margin-top: 2em;
+}
+#email{
+    margin-top: 1em;
+}
+#number{
+    margin-top: 1em;
+}
+#dropdown{
+    margin-top: 1em;
+}

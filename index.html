@@ -8,6 +8,7 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id="main">
 <h1 id="title"> new cool form</h1>
 <p id="description"> thanks you for doing this survey</p>
 <form id="survey-form">
@@ -16,7 +17,8 @@
   <label for="email" id="email-label">Email</label>
   <input type="email" name="" id="email" placeholder="Enter your email" required><br>
   <label for="number" id="number-label">Age</label>
-  <input type="number" name="" id="number" min="1" max="99" placeholder="Enter your age" required>
+  <input type="number" name="" id="number" min="1" max="99" placeholder="Enter your age" required><br>
+  <label for="dropdown">status</label>
   <select id="dropdown">
     <option>Unemployed</option>
     <option>Employed</option>
@@ -28,13 +30,15 @@
   <label for="male">Male</label> 
   <input type="radio" name="gender" value="female" id="female">
   <label for="female">Female</label><br>
+  <p><strong>Progaming language</strong></p>
   <input type="checkbox" value="java" name="lang"> Java<br>
   <input type="checkbox" value="c++" name="lang2"> C++<br>
   <input type="checkbox" value="phyton" name="lang3"> Python<br>
 
-  
-
+  <textarea name="comments" id="textarea" cols="30" rows="10" placeholder="please write some comments"></textarea><br>
+<button type="submit" id="submit">something</button>
 </form>
+</div>
     <script  src="js/index.js"></script>
   </body>
 </html>
